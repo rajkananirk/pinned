@@ -1,0 +1,322 @@
+
+/**
+|
+|
+| ----------------------------------- Body General styling --------------------------------------
+|
+|
+|
+*/
+
+body{
+    /*background: #FFFFFF;*/
+    font-family: sans-serif;
+    background: rgb(237,42,103);
+    background: linear-gradient(180deg, rgba(237,42,103,1) 0%, rgba(25,25,22,1) 100%);
+    min-height: 110vh;
+
+}
+.margin-zactra{
+    margin-top:30px;
+    text-align:center;
+
+}
+
+.text-center{
+    text-aling:center;
+}
+
+.float-right{
+    float:right;
+}
+/**
+|
+|
+| ----------------------------------- Header styling 1 --------------------------------------
+|
+|
+|
+*/
+.backgroud-overlay{
+    /*background-image:url('../images/Polygon 1.png');*/
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-repeat: repeat;
+}
+.header-container-zactra{
+    width: 100%;
+    max-height:100px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.header-sr-icon{
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+
+}
+.header-title{
+    font-weight: 700;
+    margin:auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top:3px;
+    text-align:center;
+    color: white;
+}
+
+.header-qr-icon{
+    position: absolute;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+}
+
+/**
+|
+|
+| ----------------------------------- Top Container styling --------------------------------------
+|
+|
+|
+*/
+
+.avatar{
+    margin: auto;
+    height: 100px;
+    border-radius: 100px;
+    /*box-shadow: 5px 1px 5px 1px #eaeaea;*/
+}
+.title-name{
+    /*background: -webkit-linear-gradient(#0e12bd, #333);*/
+    /*    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;*/
+    margin-top:10px;
+    color: white;
+}
+.location-icon{
+    height: 15px;
+    /* width: 20px; */
+}
+.location-text{
+    color:gray;
+}
+p{
+    margin:5px;
+}
+.statement-line-text{
+    margin-top:15px;
+}
+
+
+
+/**
+|
+|
+| ----------------------------------- Black Container styling --------------------------------------
+|
+|
+|
+*/
+
+/*.black-section{
+  width: 90%;
+  background: #353638;
+  min-height: 80px;
+  margin:auto;
+  border-radius:14px;
+}*/
+.black-section {
+    width: 90%;
+    background: #353638;
+    /*min-height: 80px;*/
+    margin: 0px auto;
+    border-radius: 14px;
+    padding: 10px;
+    box-shadow: 0px 12px 14px 0px #ED2A67;
+    /*background: linear-gradient(#ED2A67 55%, #191916);*/
+    background: linear-gradient(#ED2A67 50%, #191916 );
+}
+/*.black-section > div{
+  width: 30%;
+  float:left;
+
+  color:white;
+}*/
+.black-section > div {
+    width: 100%;
+    color: white;
+    padding-top: 2px;
+}
+.zactra-section-deatails-black{
+    margin-top:30px;
+}
+
+/*.black-middle-section{
+  font-size:18px;
+  color:white;
+  margin-top:30px !important;
+}*/
+.black-middle-section {
+    font-size: 18px;
+    color: white;
+    /*margin-top: 30px !important;*/
+    text-align: center;
+    margin: 10px;
+}
+.black-last-section{
+    background: #555555;
+    border-top-right-radius: 12px;
+    height: 80px;
+    position: absolute;
+    right: 5%;
+    border-bottom-right-radius: 12px;
+}
+.black-inner-div-margin{
+    /*margin-top:20px;*/
+}
+
+
+
+/**
+|
+|
+| ----------------------------------- Spcial Container styling --------------------------------------
+|
+|
+|
+*/
+.zactra-special-box{
+    margin: auto;
+    min-height: 55px;
+    /*border: 1px solid #E3E3E3;*/
+    width: 89%;
+    background: #F1F1F1;
+    margin-top: 15px;
+    margin-left: 6%;
+    border: 85px;
+    border-radius: 6px;
+}
+.special-image{
+    height: 42px;
+    position: absolute;
+    left: 80px;
+    margin-top: 6px;
+    border-radius: 10px;
+}
+.special-text{
+    text-align: left;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.special-button{
+    float: right;
+    padding: 7px;
+    background: white;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 13px;
+    margin-right: 5px;
+    color: #5f5f5f;
+}
+
+
+/**
+|
+|
+| ----------------------------------- Footer styling --------------------------------------
+|
+|
+|
+*/
+
+
+.footer-bottom-fixed{
+    width: 100%;
+    margin-left: 0px;
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+    height: 75px;
+    background: white;
+    box-shadow: 0px 0px 10px #dad7d7;
+}
+
+.footer-contents{
+    width: 70%;
+    margin:auto;
+    margin-top:20px;
+}
+
+.footer-user-icon{
+    height: 30px;
+    height: 30px;
+    border-radius:100px;
+}
+
+
+
+/**
+|
+|
+| ----------------------------------- Mobile responsive styling styling --------------------------------------
+|
+|
+|
+*/
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    /* special boxes */
+    .zactra-special-box{
+        margin: auto;
+        min-height: 55px;
+        width: 83%;
+
+        background: #F1F1F1;
+        margin-top: 15px;
+        margin-left: 10%;
+    }
+    .special-image{
+        height: 42px;
+        position: absolute;
+        left: 30px;
+        margin-top: 6px;
+        border-radius: 10px;
+    }
+
+
+    /* black box */
+
+    .black-last-section{
+        background: #555555;
+        border-top-right-radius: 12px;
+        height: 80px;
+        position: absolute;
+        right: 7%;
+        border-bottom-right-radius: 12px;
+    }
+}
+.avatared{
+    width: 120px;
+    background-size: cover;
+    display: block;
+    margin: 0px auto;
+    background-position: 50% 50%;
+    /*border: 2px solid #cbaab4;*/
+    border-radius: 100%;
+}
+
+.avatared img{ 
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+}

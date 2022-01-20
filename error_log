@@ -1,0 +1,37 @@
+[23-Jun-2020 05:05:32 UTC] PHP Fatal error:  Cannot use App\Model\tbl_token as tbl_token because the name is already in use in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 12
+[23-Jun-2020 05:05:48 UTC] PHP Fatal error:  Cannot use App\Model\tbl_token as tbl_token because the name is already in use in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 12
+[24-Jul-2020 12:46:31 UTC] PHP Fatal error:  Cannot use [] for reading in /home/zzuacaxuinps/public_html/airpawnd/resources/views/multiple_link.php on line 67
+[24-Jul-2020 12:46:33 UTC] PHP Fatal error:  Cannot use [] for reading in /home/zzuacaxuinps/public_html/airpawnd/resources/views/multiple_link.php on line 67
+[18-Sep-2020 13:00:52 UTC] PHP Fatal error:  Cannot use App\vCard\vCard as vCard because the name is already in use in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 22
+[18-Sep-2020 13:01:09 UTC] PHP Fatal error:  Cannot use App\vCard as vCard because the name is already in use in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 22
+[18-Sep-2020 13:01:27 UTC] PHP Fatal error:  Cannot use App\vCard as vCard because the name is already in use in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 22
+[18-Sep-2020 13:05:41 UTC] PHP Warning:  Uncaught ErrorException: require(/home/zzuacaxuinps/public_html/airpawnd/app/vCard/vCard.php): failed to open stream: No such file or directory in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php:1715
+Stack trace:
+#0 /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php(1715): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/z...', '/home/zzuacaxui...', 1715, Array)
+#1 /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php(1715): require()
+#2 [internal function]: App\Http\Controllers\UserController->generate_vcf('parth patel')
+#3 /home/zzuacaxuinps/public_html/airpawnd/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#4 /home/zzuacaxuinps/public_html/airpawnd/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('generate_vcf', Array)
+#5 /home/zzuacaxuinps/public_html/airpawnd/ven in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 1715
+[18-Sep-2020 13:05:41 UTC] PHP Fatal error:  App\Http\Controllers\UserController::generate_vcf(): Failed opening required '/home/zzuacaxuinps/public_html/airpawnd/app/vCard/vCard.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 1715
+[18-Sep-2020 13:07:30 UTC] PHP Warning:  Uncaught ErrorException: require(.../vCard/vCard.php): failed to open stream: No such file or directory in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php:1716
+Stack trace:
+#0 /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php(1716): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(.../vCa...', '/home/zzuacaxui...', 1716, Array)
+#1 /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php(1716): require()
+#2 [internal function]: App\Http\Controllers\UserController->generate_vcf('parth patel')
+#3 /home/zzuacaxuinps/public_html/airpawnd/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#4 /home/zzuacaxuinps/public_html/airpawnd/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('generate_vcf', Array)
+#5 /home/zzuacaxuinps/public_html/airpawnd/vendor/laravel/framework/src/Illuminate/Rou in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 1716
+[18-Sep-2020 13:07:30 UTC] PHP Fatal error:  App\Http\Controllers\UserController::generate_vcf(): Failed opening required '.../vCard/vCard.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 1716
+[18-Sep-2020 13:08:21 UTC] PHP Warning:  Uncaught ErrorException: require(/public_html/airpawnd/vCard/vCard.php): failed to open stream: No such file or directory in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php:1716
+Stack trace:
+#0 /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php(1716): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/public...', '/home/zzuacaxui...', 1716, Array)
+#1 /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php(1716): require()
+#2 [internal function]: App\Http\Controllers\UserController->generate_vcf('parth patel')
+#3 /home/zzuacaxuinps/public_html/airpawnd/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#4 /home/zzuacaxuinps/public_html/airpawnd/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('generate_vcf', Array)
+#5 /home/zzuacaxuinps/public_html/airpawnd/vendor/laravel/framework/ in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 1716
+[18-Sep-2020 13:08:21 UTC] PHP Fatal error:  App\Http\Controllers\UserController::generate_vcf(): Failed opening required '/public_html/airpawnd/vCard/vCard.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zzuacaxuinps/public_html/airpawnd/app/Http/Controllers/UserController.php on line 1716
+[18-Sep-2020 13:13:56 UTC] PHP Fatal error:  Cannot declare class vCard, because the name is already in use in /home/zzuacaxuinps/public_html/airpawnd/app/vCard/vCard.php on line 28
+[18-Sep-2020 13:14:29 UTC] PHP Fatal error:  Cannot declare class vCard, because the name is already in use in /home/zzuacaxuinps/public_html/airpawnd/vCard/vCard.php on line 28
+[18-Sep-2020 13:15:12 UTC] PHP Fatal error:  Cannot declare class vCard, because the name is already in use in /home/zzuacaxuinps/public_html/airpawnd/app/vCard/vCard.php on line 28

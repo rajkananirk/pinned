@@ -1,0 +1,102 @@
+/**
+*
+*=======================================================================================
+*			STYLESHEET FOR FIRST DESIGN
+*=======================================================================================
+*
+*/
+
+
+main,body{
+
+       font-size:14px;
+       font-family: 'Roboto', sans-serif;
+       background: rgb(224,40,98);
+       background: linear-gradient(180deg, rgba(224,40,98,1) 0%, rgba(0,0,0,1) 100%);
+       margin:0px;
+       color: white;
+}
+
+.zactra-header{
+       padding-top: 25px;
+       text-align: center;
+       position: relative;
+       padding-bottom: 25px;
+}
+.zactra-header img{
+       width: 29px;
+       height: 24px;
+       position: absolute;
+       left: 20px;
+       top: 23px;
+}
+
+.zactra-header a{
+       color: white;
+       font-weight: 800;
+       font-size:18px;
+       text-decoration: none;
+}
+
+.profile-section p,.profile-section h3{
+       text-align: center;
+       padding: 0px 0px 0px 0px;
+}
+
+.profile-section p a{
+       text-decoration: none;
+       color: #2196f3c4;
+}
+
+.profile-section p.eachcap{
+       text-transform: capitalize;
+}
+.profile-section p button{
+       width: 90%;
+       color: white;
+       background: rgb(224,40,98);
+       background: linear-gradient(
+              180deg
+              , rgba(224,40,98,1) 0%, rgba(0,0,0,1) 100%);
+       border: none;
+       border-radius: 10px;
+       padding: 9px;
+       position: relative;
+       padding-right: 39px;
+       border: 1px solid white;
+}
+.feature-image-section{
+       text-align: center;
+}
+.feature-image-section img{
+       width: 130px;
+       border-radius: 100px;
+       height: 130px;
+       object-fit: cover;
+}
+.profile-section p button span{
+       position: absolute;
+       top: 18px;
+}
+
+.social-media{
+       text-align: center;
+       width: 90%;
+       margin: auto;
+}
+.text-center{
+       text-align: center;
+}
+.social-media div{
+       width: 25%;
+       display: inline-block;
+       padding-bottom: 25px;
+       text-align: center;
+       padding: 10px;
+}
+.social-media div img{
+       width: 86%;
+}
+.float-right{
+       float: right;
+}
